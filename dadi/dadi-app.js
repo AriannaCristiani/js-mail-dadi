@@ -10,6 +10,15 @@
 const min = 1
 const max = 6
 
-const randomNum = Math.floor (Math.random () * (max - min + 1) + min)
-console.log( randomNum)
+const randomUser = Math.floor (Math.random () * (max - min + 1) + min)
+console.log( randomUser, 'Numero Utente')
+
+const randomPc = Math.floor (Math.random () * (max - min + 1) + min)
+console.log( randomPc, 'Numero Computer')
+
+if (randomUser > randomPc){
+    console.log('Congratulazioni! Hai vinto!')
+} else {
+    console.log("Oh no! Hai perso...ritenta un'altra volta!")
+} 
 
