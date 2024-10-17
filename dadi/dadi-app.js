@@ -7,5 +7,9 @@
 //      -stampa 'Oh no! Hai perso...ritenta un'altra volta!'
 
 
-const randomUtente = prompt ('Clicca qui per generare un numero random' (Math.random ))
-console.log( randomUtente)
+const min = 1
+const max = 6
+
+const randomNum = Math.floor (Math.random () * (max - min + 1) + min)
+console.log( randomNum)
+
